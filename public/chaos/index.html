@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>USELESS.EXE — The Most Featured Website That Does Nothing</title>
+    <meta
+      name="description"
+      content="A deliberately chaotic joke website: every button, menu, search bar and form works in the most useless and opposite way possible."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <span class="brand">USELESS.EXE</span>
+      <a class="navlink" href="#" data-nav>Home</a>
+      <a class="navlink" href="#" data-nav>About</a>
+      <a class="navlink" href="#" data-nav>Contact</a>
+      <a class="navlink" href="#" data-nav>Pricing</a>
+      <a class="navlink" href="#" data-nav>Careers</a>
+      <a class="navlink" href="#" data-nav>Log Out (you were never in)</a>
+    </nav>
+
+    <div class="marquee">
+      <span
+        >⚠ 400% UPTIME ⚠ AI-POWERED BY A GUY NAMED DAVE ⚠ NOW WITH LESS FEATURES THAN EVER ⚠ YOUR
+        MOUSE IS BEING JUDGED ⚠</span
+      >
+    </div>
+
+    <main class="wrap">
+      <section class="panel hero">
+        <h1>Everything Works. Nothing Functions.</h1>
+        <p>
+          Welcome to the world's most feature-complete website. All 412 features are installed. None
+          of them are correct.
+        </p>
+        <button data-act="opposite">Get Started</button>
+        <button data-act="opposite">Learn More</button>
+        <button class="runaway">Click Me (impossible)</button>
+        <button data-act="scream">DO NOT PRESS</button>
+      </section>
+
+      <div class="grid">
+        <section class="panel">
+          <h3>👥 Verified Users</h3>
+          <p class="tiny">Click a username to view their full professional profile.</p>
+          <div id="users"></div>
+        </section>
+
+        <section class="panel">
+          <h3>🔍 Ultra Search 9000</h3>
+          <input id="search" placeholder="Search literally anything…" autocomplete="off" />
+          <div id="searchResult" class="tiny">Awaiting your futile query…</div>
+          <button data-act="opposite">Search</button>
+          <button data-act="opposite">Clear</button>
+        </section>
+
+        <section class="panel">
+          <h3>📝 Contact Form (do not use)</h3>
+          <form id="form">
+            <label>Your Name</label>
+            <input name="name" placeholder="Type your name" />
+            <label>Your Email</label>
+            <input name="email" placeholder="you@void.null" />
+            <label>Message</label>
+            <textarea name="msg" rows="3" placeholder="Say something meaningful"></textarea>
+            <button type="button" data-act="submit">Submit</button>
+            <button type="button" data-act="cancel">Cancel</button>
+            <button type="button" data-act="save">Save Draft</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <h3>📂 Infinite Menu</h3>
+          <p class="tiny">Navigate to your desired setting. Good luck.</p>
+          <div class="dropzone" id="dropzone"></div>
+        </section>
+
+        <section class="panel">
+          <h3>⏳ Loading Something Important</h3>
+          <div class="spinner"></div>
+          <div class="pct" id="pct">Loading… 99%</div>
+          <button data-act="opposite">Cancel Loading</button>
+        </section>
+
+        <section class="panel">
+          <h3>🎚 Precision Controls</h3>
+          <label>Volume of nothing</label>
+          <input type="range" id="slider1" />
+          <label>Amount of chaos (does the opposite)</label>
+          <input type="range" id="slider2" />
+          <select id="pick">
+            <option>Choose an option</option>
+            <option>Option that does not exist</option>
+            <option>Option (deprecated)</option>
+            <option>Same option again</option>
+          </select>
+          <button data-act="opposite">Apply Settings</button>
+          <button data-act="opposite">Reset To Worse</button>
+        </section>
+      </div>
+
+      <section class="panel">
+        <h3>🥚 Secret Features</h3>
+        <p class="tiny">
+          Press any key for classified ASCII intelligence. Type in the search bar to make letters
+          misbehave. Press <b>B</b> for blah. Nothing is documented, everything is a bug.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <a href="#" data-foot>Privacy Policy</a><a href="#" data-foot>Terms of Nonsense</a
+        ><a href="#" data-foot>Careers</a><a href="#" data-foot>Support (unsupported)</a
+        ><a href="#" data-foot>Sitemap</a><a href="#" data-foot>Unsubscribe (subscribes you)</a>
+      </div>
+      <p class="tiny">© 3025 USELESS.EXE — All wrongs reserved. This footer leads nowhere.</p>
+    </footer>
+
+    <div id="chaos"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
